@@ -30,6 +30,12 @@
 	border: none !important;
 }
 
+/* Hide certain elements */
+.notion-collection__header,
+.notion-collection-card__content {
+    display: none !important;
+}
+
 /* Gallery for mobile */
 @media screen and (max-width: 414px) {
 	.notion-collection-card__cover,
