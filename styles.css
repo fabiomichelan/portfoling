@@ -1,18 +1,13 @@
 /* Portfoling Template - Powered by Fabio Michelan */
 
-@import "reset.css";
-@import "variables.css";
 @import "animations.css";
-@import "container.css";
-@import "typography.css";
-@import "collection.css";
 @import "callout.css";
-@import "navbar.css";
-@import "quote.css";
-@import "header.css";
-@import "page.css";
-@import "code.css";
-@import "caption.css";
-@import "toggle.css";
+@import "collection.css";
+@import "container.css";
 @import "divider.css";
-@import "index.css";
+@import "header.css";
+@import "navbar.css";
+@import "page.css";
+@import "quote.css";
+@import "toggle.css";
+@import "typography.css";
