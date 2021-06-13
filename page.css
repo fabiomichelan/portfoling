@@ -1,0 +1,4 @@
+/* Hide certain elements */
+.notion-page__icon {
+    display: none !important;
+}
