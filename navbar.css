@@ -5,21 +5,6 @@
 	height: 50px !important;
 }
 
-/* Navbar menu */
-.notion-quote {
-    justify-content: flex-end !important;
-    padding: 0 24px 0 0 !important;
-    align-items: center !important;
-    position: fixed !important;
-    z-index: 9999 !important;
-    display: flex !important;
-    border: none !important;
-    height: 45px !important;
-    margin: 0 !important;
-    right: 0 !important;
-    top: 0 !important;
-}
-
 /* Hide certain elements */
 .notion-breadcrumb__divider,
 .notion-breadcrumb__item {
