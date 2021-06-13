@@ -1,0 +1,40 @@
+/* Spacing between gallery items */
+.notion-collection-gallery {
+	grid-template-columns: 1fr !important;
+	grid-gap: 40px !important;
+	border: none !important;
+}
+
+/* Transition for gallery cards */
+.notion-collection-card {
+	transition: all .2s ease !important;
+	box-shadow: none !important;
+	opacity: 1 !important;
+}
+
+/* Gallery cards hover effect */
+.notion-collection-card:hover {
+	transform: scale(1.05) !important;
+	background: none !important;
+	opacity: 1 !important;
+}
+
+/* Gallery card cover height */
+.notion-collection-card__cover,
+.notion-collection-card__cover div,
+.notion-collection-card__cover img {
+	border-radius: 12px !important;
+	max-height: 510px !important;
+	overflow: hidden !important;
+	height: 510px !important;
+	border: none !important;
+}
+
+/* Gallery for mobile */
+@media screen and (max-width: 414px) {
+	.notion-collection-card__cover,
+	.notion-collection-card__cover div,
+	.notion-collection-card__cover img {
+		max-height: 200px !important;
+	}
+}
