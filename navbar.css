@@ -26,3 +26,35 @@
 .notion-navbar>a:hover {
     background: none !important;
 }
+
+/* Navbar title */
+.notion-navbar__title {
+    overflow: visible !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    padding: 0 0 0 24px !important;
+    margin: 0 !important;
+    position: fixed !important;
+    align-items: center !important;
+    z-index: 9999 !important;
+    display: flex !important;
+    border: none !important;
+    height: 50px !important;
+    left: 0 !important;
+    top: 0 !important;
+}
+
+/* Navbar menu */
+#block-7f5d0ad9ad244252a7093e0f80239fd7 {
+    justify-content: flex-end !important;
+    padding: 0 24px 0 0 !important;
+    align-items: center !important;
+    position: fixed !important;
+    z-index: 9999 !important;
+    display: flex !important;
+    border: none !important;
+    height: 50px !important;
+    margin: 0 !important;
+    right: 0 !important;
+    top: 0 !important;
+}
