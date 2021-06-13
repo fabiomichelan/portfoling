@@ -1,0 +1,4 @@
+/* Hide certain elements */
+.notion-toggle {
+    display: none !important;
+}
