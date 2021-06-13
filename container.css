@@ -2,3 +2,7 @@
 .max-width {
 	max-width: 1100px !important;
 }
+
+.super-content {
+	padding-bottom: 10vh !important;
+}
