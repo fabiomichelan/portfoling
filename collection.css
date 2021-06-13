@@ -30,9 +30,10 @@
 	border: none !important;
 }
 
-/* Hide certain elements */
+/* Hide elements */
 .notion-collection__header,
-.notion-collection-card__content {
+.notion-collection-card__content,
+.notion-property__title__icon-wrapper {
     display: none !important;
 }
 
