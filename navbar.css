@@ -12,3 +12,9 @@
     right: 0 !important;
     top: 0 !important;
 }
+
+/* Hide certain elements */
+.notion-breadcrumb__divider,
+.notion-breadcrumb__item {
+    display: none !important;
+}
