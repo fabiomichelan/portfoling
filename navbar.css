@@ -7,7 +7,9 @@
 
 /* Hide certain elements */
 .notion-breadcrumb__divider,
-.notion-breadcrumb__item {
+.notion-breadcrumb__item,
+.notion-navbar__icon,
+.notion-navbar>a.has-icon div:first-child {
     display: none !important;
 }
 
