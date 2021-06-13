@@ -1,3 +1,10 @@
+/* Navbar styles */
+.notion-navbar {
+	background: rgba(255,255,255) !important;
+	backdrop-filter: blur(20px) !important;
+	height: 50px !important;
+}
+
 /* Navbar menu */
 .notion-quote {
     justify-content: flex-end !important;
