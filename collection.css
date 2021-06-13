@@ -30,6 +30,12 @@
 	border: none !important;
 }
 
+.notion-property__title {
+	color: var(--color-text-default) !important;
+	padding: 12px 0 4px !important;
+	font-size: 1em !important;
+}
+
 /* Hide elements */
 .notion-collection__header,
 .notion-collection-card__content,
