@@ -54,3 +54,10 @@
 .notion-navbar a[href="/"] {
     display: flex !important;
 }
+
+/* Navbar for mobile */
+@media screen and (max-width: 414px) {
+	.notion-navbar {
+	border-bottom: 1px solid rgba(255,255,255) !important;
+	}
+}
