@@ -30,6 +30,7 @@
 	border: none !important;
 }
 
+/* Gallery card title style */
 .notion-property__title {
 	color: var(--color-text-default) !important;
 	padding: 12px 0 4px !important;
