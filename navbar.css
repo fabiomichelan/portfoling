@@ -58,6 +58,6 @@
 /* Navbar for mobile */
 @media screen and (max-width: 414px) {
 	.notion-navbar {
-	border-bottom: 1px solid rgba(255,255,255) !important;
+	border-bottom: 1px solid rgba(0,0,0) !important;
 	}
 }
