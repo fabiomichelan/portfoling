@@ -1,3 +1,17 @@
+/* Gallery card size */
+.notion-collection-card__cover.large>span{
+  height: auto !important;
+  max-height: none !important;
+}
+.notion-collection-card__cover.medium>span{
+  height: auto !important;
+  max-height: none !important;
+}
+.notion-collection-card__cover.small>span{
+  height: auto !important;
+  max-height: none !important;
+}
+
 /* Spacing between gallery items */
 .notion-collection-gallery {
 	grid-template-columns: 1fr !important;
