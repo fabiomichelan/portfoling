@@ -46,7 +46,7 @@
 }
 
 /* Hide icon */
-a.notion-link.notion-breadcrumb__item.single.has-icon {
+.notion-navbar .single .notion-navbar__title {
 display: none !important;
 }
 
