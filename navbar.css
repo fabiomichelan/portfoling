@@ -45,6 +45,12 @@
     display: none !important;
 }
 
+/* Hide icon */
+a.notion-link.notion-breadcrumb__item.single.has-icon {
+display: none !important;
+
+}
+
 /* Hide hover */
 .notion-navbar>a:hover {
     background: none !important;
