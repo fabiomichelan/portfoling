@@ -48,7 +48,7 @@
 
 /* Hide hover */
 .notion-breadcrumb__item:hover {
-    background-color: none !important;
+    background-color: #000000 !important;
 }
 
 /* Always show the page title */
