@@ -32,22 +32,18 @@
 
 /* Navbar styles */
 .notion-navbar {
-	border-bottom: 1px solid var(--color-bg-gray) !important;
-	background: rgba(255,255,255) !important;
-	height: 50px !important;
+    border-bottom: 1px solid var(--color-bg-gray) !important;
+    background: rgba(255,255,255) !important;
+    height: 50px !important;
 }
 
 /* Hide elements */
 .notion-breadcrumb__divider,
 .notion-breadcrumb__item,
+.notion-breadcrumb__icon,
 .notion-navbar__icon,
 .notion-navbar>a.has-icon div:first-child {
     display: none !important;
-}
-
-/* Hide icon */
-.notion-breadcrumb__icon {
-display: none !important;
 }
 
 /* Hide hover */
@@ -62,7 +58,7 @@ display: none !important;
 
 /* Navbar for mobile */
 @media screen and (max-width: 414px) {
-	.notion-navbar {
-	border-bottom: none !important;
+.notion-navbar {
+    border-bottom: none !important;
 	}
 }
