@@ -47,8 +47,8 @@
 }
 
 /* Hide hover */
-.notion-navbar>a:hover {
-    background: none !important;
+.notion-breadcrumb__item:hover {
+    background-color: none !important;
 }
 
 /* Always show the page title */
