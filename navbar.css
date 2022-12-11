@@ -47,7 +47,7 @@
 }
 
 /* Hide hover */
-.notion-breadcrumb__item>a:hover {
+.notion-navbar>a:hover {
     background: none !important;
 }
 
