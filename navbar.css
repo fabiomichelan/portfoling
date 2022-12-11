@@ -48,7 +48,7 @@
 
 /* Hide hover */
 .notion-navbar>a:hover {
-    display: none !important;
+    background: rgba(255,255,255) !important;
 }
 
 /* Always show the page title */
