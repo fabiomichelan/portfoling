@@ -47,7 +47,9 @@
 }
 
 /* Hide hover */
-.notion-breadcrumb__item:hover {
+.notion-breadcrumb__item:hover,
+.notion-breadcrumb__icon:hover,
+.notion-navbar__icon:hover {
     background-color: #000000 !important;
 }
 
