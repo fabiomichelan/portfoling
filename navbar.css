@@ -50,7 +50,12 @@
 .notion-breadcrumb__item:hover,
 .notion-breadcrumb__icon:hover,
 .notion-navbar__icon:hover {
-    background: none !important;
+    background: #000000 !important;
+}
+
+/* Resize hover for mobile */
+.notion-breadcrumb>a.has-icon {
+    padding: 2px 60px !important;
 }
 
 /* Always show the page title */
