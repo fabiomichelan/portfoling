@@ -7,18 +7,3 @@
 .notion-header__icon-wrapper.has-icon-image {
 	margin: 11px 0 11px 0 !important;
 }
-
-<script>
-/** Open in a new tab images on click */
-document.addEventListener('DOMContentLoaded', function () {
-  /** Only select images in columns, to avoid changing behaviour for all images on the page */
-  const selector = ".notion-column .notion-image img";
-  const images = document.querySelectorAll(selector);
-  images.forEach(function (image) {
-    image.style.cursor = "pointer";
-    image.addEventListener('click', function(event) {
-      window.open(event.target.src, "_blank");
-    });
-  });
-});
-</script>
