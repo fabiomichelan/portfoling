@@ -50,7 +50,7 @@
 .notion-breadcrumb__item:hover,
 .notion-breadcrumb__icon:hover,
 .notion-navbar__icon:hover {
-    background: #000000 !important;
+    background: none !important;
 }
 
 /* Resize hover for mobile */
