@@ -50,7 +50,7 @@
 .notion-breadcrumb__item:hover,
 .notion-breadcrumb__icon:hover,
 .notion-navbar__icon:hover {
-    background-color: #000000 !important;
+    background-color: none !important;
 }
 
 /* Always show the page title */
